@@ -2,7 +2,7 @@
 Summary:	Framework for the ownCloud News app
 Name:		owncloud-%{pkgname}
 Version:	0.101
-Release:	0.1
+Release:	0.2
 License:	AGPL
 Group:		Development/Languages/PHP
 Source0:	http://apps.owncloud.com/CONTENT/content-files/158433-appframework.zip
@@ -13,7 +13,7 @@ Requires:	owncloud >= 5.0.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_appdir		%{_datadir}/owncloud/%{pkgname}
+%define		_appdir		%{_datadir}/owncloud/apps/%{pkgname}
 
 %description
 Framework for the ownCloud News app
