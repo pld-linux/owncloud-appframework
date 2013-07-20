@@ -1,12 +1,12 @@
 %define		pkgname	appframework
 Summary:	Framework for the ownCloud News app
 Name:		owncloud-%{pkgname}
-Version:	0.101
-Release:	0.2
+Version:	0.102
+Release:	1
 License:	AGPL
 Group:		Development/Languages/PHP
 Source0:	http://apps.owncloud.com/CONTENT/content-files/158433-appframework.zip
-# Source0-md5:	4cf560dce3eb0b71242cfe0a344e979e
+# Source0-md5:	7a54b3daab12be6cafc92cbb89e09613
 URL:		http://apps.owncloud.com/content/show.php/App+Framework?content=158433
 BuildRequires:	rpmbuild(macros) >= 1.461
 Requires:	owncloud >= 5.0.0
